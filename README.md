@@ -6,6 +6,8 @@ My kid needed something better than Internet videos he finds on his own and I wa
 # install
 Clone repo, cd into it, run 'python -m SimpleHTTPServer' or whatever, open in the browser. 
 
+Or even better because you probably don't have python 2, try 'python -m http.server 8080'. 
+
 # instructions
 Click the upper left corner to toggle fullscreen. Click anywhere else to go to the next letter. 
 
