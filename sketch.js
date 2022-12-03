@@ -1,12 +1,12 @@
 
 const letters = ['A a', 'B b', 'C c', 'D d', 'E e', 'F f', 'G g', 'H h', 'I i', 'J j', 'K k', 'L l', 'M m', 'N n', 'O o', 'P p', 'Q q', 'R r', 'S s', 'T t', 'U u', 'V v', 'W w', 'X x', 'Y y', 'Z z', 'Å å', 'Ä ä', 'Ö ö'];
-var i = 0;
-var j = 0;
-var n = letters.length;
-var pos = 0;
-var bgColour = [200, 180, 180];
-var stColour = [50, 50, 50];
-var fullscreen_on = false;
+let i = 0;
+let j = 0;
+let n = letters.length;
+let pos = 0;
+let bgColour = [200, 180, 180];
+let stColour = [50, 50, 50];
+let fullscreen_on = false;
 
 function rndColour(colour_array) {
     colour_array.forEach(function (element, index) {
