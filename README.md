@@ -5,6 +5,10 @@ My kid needed something better than Internet videos he finds on his own and I wa
 
 ![Screamshoot](/letters.png)
 
+# demo
+
+www.internetpatrullen.se/letters
+
 # install
 Clone repo, cd into it, run 'python -m SimpleHTTPServer' or whatever, open in the browser. 
 
