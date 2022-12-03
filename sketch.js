@@ -6,16 +6,20 @@ var n = letters.length;
 var pos = 0;
 var bgColour = [200, 180, 180];
 var stColour = [50, 50, 50];
+var fullscreen_on = false;
+
+function rndColour(colour_array) {
+    colour_array.forEach(function (element, index) {
+        this[index] = random(254);
+    }, colour_array);
+}
 
 function mousePressed() {
-    bgColour.forEach(function (element, index) {
-        this[index] = random(254);
-    }, bgColour);
-    stColour.forEach(function (element, index) {
-        this[index] = random(254);
-    }, stColour);
+    rndColour(bgColour);
+    rndColour(stColour);
     if (mouseX > 0 && mouseX < 50 && mouseY > 0 && mouseY < 50) {
-        fullscreen(true);
+        fullscreen_on = !fullscreen_on;
+        fullscreen(fullscreen_on);
     }
     i++;
 }
